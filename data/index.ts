@@ -1,8 +1,9 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "Home", link: "#Home" },
+    { name: "About", link: "#About" },
+    { name: "Projects", link: "#Projects" },
+    { name: "Experience", link: "#Experience" },
+    { name: "Contact", link: "#Contact" },
 ];
 
 export const gridItems = [
@@ -173,31 +174,38 @@ export const companies = [
 export const workExperience = [
     {
         id: 1,
-        title: "Frontend Engineer Intern",
+        title: "Software Development Intern - Leap of Faith Technologies",
         desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
     },
     {
         id: 2,
-        title: "Mobile App Dev - JSM Tech",
-        desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+        title: "Graduate Teaching Assistant - Illinois Institute of Technology Chicago",
+        desc: "Provided one-on-one tutoring and office hours to support student learning, address individual challenges, and enhance their understanding. Coordinated with other teaching assistants to ensure consistency in grading standards. Graded assignments, and exams, ensuring a fair assessment of student performance. Gained in-depth knowledge of advanced probabilistic graphical models and inference techniques through direct engagement with course material and research activities.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Freelance App Dev Project",
-        desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+        title: "Graduate Digital Solutions Consultant - Worley",
+        desc: "Developed diverse applications using ASP.NET MVC, C#, jQuery, HTML, and CSS. Enhanced database performance and efficiency by optimizing query execution time in MySQL Server Management Studio Led projects with Automation Anywhere (AA) for enhanced automation. Uploaded projects efficiently on the Visual Studio TFS server, ensuring smooth collaboration.",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp3.svg",
     },
     {
         id: 4,
-        title: "Lead Frontend Developer",
-        desc: "Developed and maintained user-facing features using modern frontend technologies.",
-        className: "md:col-span-2",
+        title: "Graduate Digital Solutions Consultant Intern - Worley",
+        desc: "Streamlined HR and Piping Department tasks efficiently through UiPath automation. Crafted diverse website portals employing ASP.NET MVC, C#, jQuery, HTML, and CSS. Engineered database management processes by implementing advanced SQL techniques, enhancing overall efficiency and reliability.",
+        className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp4.svg",
+    },
+    {
+        id: 5,
+        title: "Web Developer Intern - C-BIA SOLUTIONS & SERVICES LLP",
+        desc: "Delivered a live project for a UK client on SharePoint Online, handling configuration, site creation, Document Library setup, Site Pages, and thorough testing. Developed custom web parts using Visual Code for enhanced project functionality. Integrated Excel Files seamlessly using Microsoft SQL Server Integration Services for efficient data flow.",
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
     },
 ];
 
