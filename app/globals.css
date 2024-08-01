@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Old English Text MT';
+    src: local('Old English Text MT'), local('OldEnglishTextMT');
+}
 
 @layer base {
     :root {
@@ -51,6 +55,10 @@
     .rounded-full {
         border-radius: 50%;
     }
+
+    .unique-font {
+        font-family: 'Old English Text MT', serif;
+    }
 }
 
 @layer base {
@@ -70,5 +78,15 @@
 @layer utilities {
     .heading {
         @apply font-bold text-4xl md:text-5xl text-center;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
     }
 }
