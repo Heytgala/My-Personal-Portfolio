@@ -61,7 +61,7 @@ const Hero = () => {
                         {roles[currentRole]}
                     </p>
                     <p className="text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
-                        I am a passionate Software Developer and Full Stack Developer. Currently, I'm interning at Leap of Faith Technologies (LLC) as a Software Development Intern.
+                        I am a passionate Software Developer and Full Stack Developer. Currently, I&apos;m interning at Leap of Faith Technologies (LLC) as a Software Development Intern.
                     </p>
                     <div className="flex flex-row items-center justify-center md:justify-start gap-4 mb-6">
                         <a
