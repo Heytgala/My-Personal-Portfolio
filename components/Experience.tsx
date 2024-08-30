@@ -8,7 +8,7 @@ const Experience = () => {
             <h1 className="heading">
                 Work <span className="text-purple">Experience</span>
             </h1>
-            <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+            <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 p-4 gap-10">
                 {workExperience.map((card) => (
                     <Button key={card.id} duration={Math.floor(Math.random() * 10000) + 10000} borderRadius='1.75rem' className="flex-1 text-white border-neutral-200 dark:border-slate-800">
                         <div className="p-3 py-6 md:p-5 lg:p-10">
