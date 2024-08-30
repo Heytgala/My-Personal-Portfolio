@@ -1,6 +1,5 @@
 import React from 'react';
 import { gridItems } from '@/data';
-import { BentoGrid, BentoGridItem } from './ui/BentoGrid';
 
 const technologies = [
     { name: 'React.js', logo: '/reactjs.png' },
