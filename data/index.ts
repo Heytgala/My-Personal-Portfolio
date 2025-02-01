@@ -105,39 +105,6 @@ export const projects = [
     },
 ];
 
-export const testimonials = [
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-];
-
 export const companies = [
     {
         id: 1,
@@ -175,10 +142,10 @@ export const workExperience = [
     {
         id: 1,
         title: "Leap of Faith Technologies (Software Development Intern)",
-        desc: ["Developed and executed efficient ETL processes using Python, transforming and loading JSON data into PostgreSQL, resulting in a 30% improvement in data processing time.",
-            "Engineered APIs with IMO NLP tools to extract lexical codes for medications and patient problems, leading to enhanced accuracy in clinical data processing and analysis.",
+        desc: ["Engineered and executed efficient ETL processes using Python, transforming and loading JSON data into PostgreSQL, resulting in a 30% improvement in data processing time.",
+            "Created APIs with IMO NLP tools to extract lexical codes for medications and patient problems, improving clinical data processing accuracy by 15% and increasing analysis speed by 20%.",
             "Streamlined IEMR clinical data management through Atlas and Athena, reducing data retrieval times by 25%.",
-            "Ensured high - performance data storage and retrieval via expert database management with PostgreSQL, increasing overall system reliability."
+            "Optimized PostgreSQL database management, reducing query response time by 30% and increasing system reliability by 20%."
             ],
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
@@ -187,27 +154,15 @@ export const workExperience = [
         id: 2,
         title: "Worley (Graduate Digital Solutions Consultant)",
         desc: [
-            "Developed diverse applications using ASP.NET MVC, C#, jQuery, HTML, and CSS.",
-            "Enhanced database performance and efficiency by optimizing query execution time in MySQL Server Management Studio.",
-            "Led projects with Automation Anywhere (AA) for enhanced automation.",
-            "Uploaded projects efficiently on the Visual Studio TFS server, ensuring smooth collaboration."
+            "Designed and implemented applications and user-friendly website portals using CI/CD pipeline, leveraging ASP.NET MVC, C#, jQuery, HTML, and CSS, which resulted in a 40% increase in user engagement and raising client satisfaction ratings.",
+            "Enhanced MySQL database performance through query optimization, achieving a 50% reduction in data retrieval times, and automated HR and Piping Department processes with UiPath, boosting efficiency by 35%.",
+            "Led automation with Automation Anywhere, boosting efficiency by 40%, enhanced team collaboration via Visual Studio TFS, and upgrading data integrity and reliability by 25% through advanced SQL."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
     },
     {
         id: 3,
-        title: "Worley (Graduate Digital Solutions Consultant Intern)",
-        desc: [
-            "Streamlined HR and Piping Department tasks efficiently through UiPath automation.",
-            "Crafted diverse website portals employing ASP.NET MVC, C#, jQuery, HTML, and CSS.",
-            "Engineered database management processes by implementing advanced SQL techniques, enhancing overall efficiency and reliability."
-        ],
-        className: "md:col-span-2",
-        thumbnail: "/exp3.svg",
-    },
-    {
-        id: 4,
         title: "C-BIA SOLUTIONS & SERVICES LLP (Web Developer Intern)",
         desc: [
             "Delivered a live project for a UK client on SharePoint Online, handling configuration, site creation, Document Library setup, Site Pages, and thorough testing.",
@@ -218,16 +173,16 @@ export const workExperience = [
         thumbnail: "/exp4.svg",
     },
     {
-        id: 5,
+        id: 4,
         title: "Illinois Institute of Technology Chicago (Graduate Teaching Assistant)",
         desc: [
             "Provided one-on-one tutoring and office hours to support student learning, address individual challenges, and enhance their understanding.",
             "Coordinated with other teaching assistants to ensure consistency in grading standards.",
             "Graded assignments, and exams, ensuring a fair assessment of student performance.",
-            "Gained in-depth knowledge of advanced probabilistic graphical models and inference techniques through direct engagement with course material and research activities."
+            "Gained in-depth knowledge of advanced probabilistic graphical models, Google Cloud, Google Cloud Services and inference techniques through direct engagement with course material and research activities."
         ],
         className: "md:col-span-2",
-        thumbnail: "e-learning.png",
+        thumbnail: "/exp3.svg",
     },
 ];
 
